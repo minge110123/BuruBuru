@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B40766462B14A54A00C14D3E /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B40766442B14A54A00C14D3E /* robot_walk_idle.usdz */; };
+		B40766472B14A54A00C14D3E /* tv_retro.usdz in Resources */ = {isa = PBXBuildFile; fileRef = B40766452B14A54A00C14D3E /* tv_retro.usdz */; };
+		B442B3BF2B0BBB2F00AE420E /* ARGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B3BE2B0BBB2F00AE420E /* ARGameTest.swift */; };
+		B442B3C12B0BD86100AE420E /* ARGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B3C02B0BD86100AE420E /* ARGameView.swift */; };
+		B48629F42B023156003A9F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48629F32B023156003A9F57 /* AppDelegate.swift */; };
+		B48629F62B023156003A9F57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48629F52B023156003A9F57 /* ContentView.swift */; };
+		B48629F82B023158003A9F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48629F72B023158003A9F57 /* Assets.xcassets */; };
+		B48629FB2B023158003A9F57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48629FA2B023158003A9F57 /* Preview Assets.xcassets */; };
+		B4862A022B023204003A9F57 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A012B023204003A9F57 /* HomeView.swift */; };
+		B4862A042B023DA8003A9F57 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A032B023DA8003A9F57 /* CardView.swift */; };
+		B4862A062B025B4B003A9F57 /* BasisTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A052B025B4B003A9F57 /* BasisTestView.swift */; };
+		B4862A082B02951B003A9F57 /* motionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A072B02951B003A9F57 /* motionManger.swift */; };
+		B4862A0A2B029726003A9F57 /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A092B029726003A9F57 /* DataView.swift */; };
+		B4862A0C2B029CB7003A9F57 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A0B2B029CB7003A9F57 /* DetailView.swift */; };
+		B4862A0E2B02AB2F003A9F57 /* ARKaKi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A0D2B02AB2F003A9F57 /* ARKaKi.swift */; };
+		B4862A102B02AC56003A9F57 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4862A0F2B02AC56003A9F57 /* ARViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B40766442B14A54A00C14D3E /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = robot_walk_idle.usdz; path = "../../../project 资源/buruburu/robot_walk_idle.usdz"; sourceTree = "<group>"; };
+		B40766452B14A54A00C14D3E /* tv_retro.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = tv_retro.usdz; path = "../../../project 资源/buruburu/tv_retro.usdz"; sourceTree = "<group>"; };
+		B442B3BE2B0BBB2F00AE420E /* ARGameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameTest.swift; sourceTree = "<group>"; };
+		B442B3C02B0BD86100AE420E /* ARGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGameView.swift; sourceTree = "<group>"; };
+		B48629F02B023156003A9F57 /* BuruBuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuruBuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48629F32B023156003A9F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B48629F52B023156003A9F57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B48629F72B023158003A9F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48629FA2B023158003A9F57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4862A012B023204003A9F57 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B4862A032B023DA8003A9F57 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		B4862A052B025B4B003A9F57 /* BasisTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasisTestView.swift; sourceTree = "<group>"; };
+		B4862A072B02951B003A9F57 /* motionManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionManger.swift; sourceTree = "<group>"; };
+		B4862A092B029726003A9F57 /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
+		B4862A0B2B029CB7003A9F57 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B4862A0D2B02AB2F003A9F57 /* ARKaKi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKaKi.swift; sourceTree = "<group>"; };
+		B4862A0F2B02AC56003A9F57 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48629ED2B023156003A9F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48629E72B023156003A9F57 = {
+			isa = PBXGroup;
+			children = (
+				B48629F22B023156003A9F57 /* BuruBuru */,
+				B48629F12B023156003A9F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48629F12B023156003A9F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48629F02B023156003A9F57 /* BuruBuru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48629F22B023156003A9F57 /* BuruBuru */ = {
+			isa = PBXGroup;
+			children = (
+				B48629F32B023156003A9F57 /* AppDelegate.swift */,
+				B48629F52B023156003A9F57 /* ContentView.swift */,
+				B4862A012B023204003A9F57 /* HomeView.swift */,
+				B4862A0D2B02AB2F003A9F57 /* ARKaKi.swift */,
+				B442B3C02B0BD86100AE420E /* ARGameView.swift */,
+				B442B3BE2B0BBB2F00AE420E /* ARGameTest.swift */,
+				B4862A0F2B02AC56003A9F57 /* ARViewContainer.swift */,
+				B4862A092B029726003A9F57 /* DataView.swift */,
+				B4862A0B2B029CB7003A9F57 /* DetailView.swift */,
+				B4862A052B025B4B003A9F57 /* BasisTestView.swift */,
+				B4862A072B02951B003A9F57 /* motionManger.swift */,
+				B4862A032B023DA8003A9F57 /* CardView.swift */,
+				B48629F72B023158003A9F57 /* Assets.xcassets */,
+				B40766442B14A54A00C14D3E /* robot_walk_idle.usdz */,
+				B40766452B14A54A00C14D3E /* tv_retro.usdz */,
+				B48629F92B023158003A9F57 /* Preview Content */,
+			);
+			path = BuruBuru;
+			sourceTree = "<group>";
+		};
+		B48629F92B023158003A9F57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B48629FA2B023158003A9F57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48629EF2B023156003A9F57 /* BuruBuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48629FE2B023158003A9F57 /* Build configuration list for PBXNativeTarget "BuruBuru" */;
+			buildPhases = (
+				B48629EC2B023156003A9F57 /* Sources */,
+				B48629ED2B023156003A9F57 /* Frameworks */,
+				B48629EE2B023156003A9F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuruBuru;
+			productName = BuruBuru;
+			productReference = B48629F02B023156003A9F57 /* BuruBuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48629E82B023156003A9F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B48629EF2B023156003A9F57 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B48629EB2B023156003A9F57 /* Build configuration list for PBXProject "BuruBuru" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48629E72B023156003A9F57;
+			productRefGroup = B48629F12B023156003A9F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48629EF2B023156003A9F57 /* BuruBuru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48629EE2B023156003A9F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48629FB2B023158003A9F57 /* Preview Assets.xcassets in Resources */,
+				B48629F82B023158003A9F57 /* Assets.xcassets in Resources */,
+				B40766472B14A54A00C14D3E /* tv_retro.usdz in Resources */,
+				B40766462B14A54A00C14D3E /* robot_walk_idle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48629EC2B023156003A9F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4862A062B025B4B003A9F57 /* BasisTestView.swift in Sources */,
+				B4862A0E2B02AB2F003A9F57 /* ARKaKi.swift in Sources */,
+				B4862A0C2B029CB7003A9F57 /* DetailView.swift in Sources */,
+				B4862A022B023204003A9F57 /* HomeView.swift in Sources */,
+				B48629F62B023156003A9F57 /* ContentView.swift in Sources */,
+				B4862A0A2B029726003A9F57 /* DataView.swift in Sources */,
+				B4862A042B023DA8003A9F57 /* CardView.swift in Sources */,
+				B48629F42B023156003A9F57 /* AppDelegate.swift in Sources */,
+				B4862A082B02951B003A9F57 /* motionManger.swift in Sources */,
+				B442B3BF2B0BBB2F00AE420E /* ARGameTest.swift in Sources */,
+				B4862A102B02AC56003A9F57 /* ARViewContainer.swift in Sources */,
+				B442B3C12B0BD86100AE420E /* ARGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B48629FC2B023158003A9F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B48629FD2B023158003A9F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48629FF2B023158003A9F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuruBuru/Preview Content\"";
+				DEVELOPMENT_TEAM = L3JN6ASK5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lizhi110123.BuruBuru123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4862A002B023158003A9F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BuruBuru/Preview Content\"";
+				DEVELOPMENT_TEAM = L3JN6ASK5J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lizhi110123.BuruBuru123;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48629EB2B023156003A9F57 /* Build configuration list for PBXProject "BuruBuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48629FC2B023158003A9F57 /* Debug */,
+				B48629FD2B023158003A9F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48629FE2B023158003A9F57 /* Build configuration list for PBXNativeTarget "BuruBuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48629FF2B023158003A9F57 /* Debug */,
+				B4862A002B023158003A9F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48629E82B023156003A9F57 /* Project object */;
+}
